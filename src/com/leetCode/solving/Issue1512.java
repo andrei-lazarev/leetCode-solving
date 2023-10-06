@@ -10,7 +10,7 @@ import java.util.Map;
  **/
 public class Issue1512 {
   public static void main(String[] args) {
-    int[] nums = new int[] {0,1,2,0,3,1,1,3};
+    int[] nums = {0,1,2,0,3,1,1,3};
 
     System.out.println("So we have nums[]=" + Arrays.toString(nums)
       + "\nThere are " + numIdenticalPairs(nums) + " good pairs."

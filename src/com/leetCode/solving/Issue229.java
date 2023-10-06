@@ -8,7 +8,7 @@ import java.util.*;
  */
 public class Issue229 {
   public static void main(String[] args) {
-    int[] nums = new int[] {1,2,6,1,4,1,3,1,4};
+    int[] nums = {1,2,6,1,4,1,3,1,4};
     System.out.println("For given an integer array " + Arrays.toString(nums)
       +" of size " + nums.length
       +", there is array "+ new Solution().majorityElement(nums)
