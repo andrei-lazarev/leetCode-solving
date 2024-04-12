@@ -9,9 +9,6 @@ public class Issue402 {
     String num = "112";
     int k = 1;
 
-/*    String num = "112";
-    int k = 1;*/
-
     System.out.println("Given an integer k and string num representing a non-negative integer num:\n"
       + "k = " + k + ", num = "+ num
       + "\nThe smallest possible integer after removing k digits from num\n"
