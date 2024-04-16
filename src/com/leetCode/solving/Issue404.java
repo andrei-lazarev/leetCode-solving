@@ -8,14 +8,7 @@ import com.leetCode.structures.TreeNode;
  */
 public class Issue404 {
   public static void main(String[] args) {
-//    TreeNode root = new TreeNode(
-//      3,
-//      new TreeNode(9),
-//      new TreeNode(20, new TreeNode(15), new TreeNode(7)));
-    TreeNode root = new TreeNode(
-      1,
-      null,
-      new TreeNode(2));
+    TreeNode root = new TreeNode(new Integer[]{3,9,20,null,null,15,7});
 
     System.out.println("Given the root of a binary tree:\n" + root +
       "\nThe sum of all left leaves : "
